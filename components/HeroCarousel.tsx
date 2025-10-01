@@ -4,8 +4,9 @@ import React, { useState, useEffect, useRef } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import Image from "next/image";
 import Analytics from "@/public/analytics.jpeg";
-import OpenSource from "@/public/openSource.jpeg";
-import Wan from "@/public/wan.jpeg";
+import OpenSource from "@/public/opensource.jpg";
+import Wan from "@/public/wan.png";
+
 
 interface Slide {
   title: string;
@@ -61,6 +62,7 @@ const HeroCarousel: React.FC = () => {
       bgImage: Wan,
       bgGradient: "from-purple-600/70 to-pink-800/80",
     },
+    
     {
       title: "Pro Vision",
       subtitle: "Advanced Analytics",
