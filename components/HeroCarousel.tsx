@@ -16,7 +16,6 @@ interface Slide {
   buttonText: string;
   tag: string;
   bgImage: string | any;
-  bgGradient: string;
 }
 
 const HeroCarousel: React.FC = () => {
@@ -41,7 +40,6 @@ const HeroCarousel: React.FC = () => {
       buttonText: "Try WAN 2.2",
       tag: "NEW INSIDE MODEL",
       bgImage: Wan,
-      bgGradient: "",
     },
     {
       title: "Open Source",
@@ -51,7 +49,6 @@ const HeroCarousel: React.FC = () => {
       buttonText: "Try FLUX.1",
       tag: "FLUX MODEL",
       bgImage: OpenSource,
-      bgGradient: "from-blue-600/70 to-purple-800/80",
     },
     {
       title: "AI Studio",
@@ -61,9 +58,7 @@ const HeroCarousel: React.FC = () => {
       buttonText: "Explore Studio",
       tag: "CREATIVE SUITE",
       bgImage: Wan,
-      bgGradient: "from-purple-600/70 to-pink-800/80",
     },
-
     {
       title: "Pro Vision",
       subtitle: "Advanced Analytics",
@@ -71,8 +66,7 @@ const HeroCarousel: React.FC = () => {
         "Get detailed insights and analytics for your AI-generated content. Track performance, optimize results, and make data-driven decisions for better outcomes.",
       buttonText: "View Analytics",
       tag: "ANALYTICS PLATFORM",
-      bgImage: Analytics,
-      bgGradient: "from-green-600/70 to-teal-800/80",
+      bgImage: Analytics, 
     },
     {
       title: "Neural Networks",
@@ -82,7 +76,7 @@ const HeroCarousel: React.FC = () => {
       buttonText: "Start Training",
       tag: "ML PLATFORM",
       bgImage: NewralNetwork,
-      bgGradient: "",
+  
     },
   ];
 
@@ -153,9 +147,7 @@ const HeroCarousel: React.FC = () => {
                   className="w-full h-full object-cover"
                   priority
                 />
-                <div
-                  className={`absolute inset-0 bg-gradient-to-r ${slide.bgGradient}`}
-                ></div>
+             
               </div>
 
               {/* Content */}
