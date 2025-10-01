@@ -5,6 +5,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import Image from "next/image";
 import Analytics from "@/public/analytics.jpeg";
 import OpenSource from "@/public/opensource.jpg";
+import NewralNetwork from "@/public/newralnetwork.jpg"
 import Wan from "@/public/wan.png";
 
 
@@ -40,7 +41,7 @@ const HeroCarousel: React.FC = () => {
       buttonText: "Try WAN 2.2",
       tag: "NEW INSIDE MODEL",
       bgImage: Wan,
-      bgGradient: "from-violet-500/70 to-amber-700/80",
+      bgGradient: "",
     },
     {
       title: "Open Source",
@@ -62,7 +63,7 @@ const HeroCarousel: React.FC = () => {
       bgImage: Wan,
       bgGradient: "from-purple-600/70 to-pink-800/80",
     },
-    
+
     {
       title: "Pro Vision",
       subtitle: "Advanced Analytics",
@@ -80,8 +81,8 @@ const HeroCarousel: React.FC = () => {
         "Advanced neural network architectures for complex AI tasks. Train and deploy sophisticated models with our cutting-edge infrastructure.",
       buttonText: "Start Training",
       tag: "ML PLATFORM",
-      bgImage: OpenSource,
-      bgGradient: "from-indigo-600/70 to-blue-800/80",
+      bgImage: NewralNetwork,
+      bgGradient: "",
     },
   ];
 

@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import HeroCarousel from "@/components/HeroCarousel";
 import GenerateGrid from "@/components/GenerateGrid";
 import GallerySection from "@/components/GallerySection";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <GenerateGrid />
         <GallerySection />
       </section>
+      <Footer />
     </main>
   );
 }
