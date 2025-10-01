@@ -95,7 +95,7 @@ export default function Navbar() {
         )}
 
         {/* Profile circle */}
-        <div className="h-7 w-7 rounded-full bg-gradient-to-r from-purple-400 to-pink-400"></div>
+        <div className="h-7 w-7 rounded-full bg-gradient-to-r from-blue-300 to-blue-400"></div>
       </div>
 
       {/* Mobile Hamburger */}

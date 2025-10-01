@@ -39,7 +39,7 @@ const HeroCarousel: React.FC = () => {
       buttonText: "Try WAN 2.2",
       tag: "NEW INSIDE MODEL",
       bgImage: Wan,
-      bgGradient: "from-orange-600/70 to-amber-800/80",
+      bgGradient: "from-violet-500/70 to-amber-700/80",
     },
     {
       title: "Open Source",
