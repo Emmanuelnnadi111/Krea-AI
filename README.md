@@ -72,4 +72,8 @@ That means you’re free to use it, remix it, and build amazing things on top of
 Why We Built KREA AI
 
 We built KREA AI to make creativity accessible to everyone.
+<<<<<<< HEAD
 You don’t need to be a professional designer, filmmaker, or illustrator to bring your ideas to life. With KREA AI, your imagination is enough.
+=======
+You don’t need to be a professional designer, filmmaker, or illustrator to bring your ideas to life. With KREA AI, your imagination is enough.
+>>>>>>> 153c3c9a966640a2430c421ac422fcf109eafb23
