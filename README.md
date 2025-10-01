@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+KREA AI
 
-## Getting Started
+Welcome to KREA AI – your AI-powered creative partner.
+With just a few words (or even a rough idea), KREA AI helps you turn imagination into stunning images and videos. Whether you’re a designer, content creator, entrepreneur, or just someone who loves to explore ideas, KREA AI gives you a canvas without limits.
 
-First, run the development server:
+What KREA AI Can Do
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Create amazing images – From photorealistic portraits to wild, abstract art.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Generate videos – Bring your stories to life with short, AI-powered animations.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Fast results – No need to wait hours; get your creations in seconds.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Custom styles & filters – Make your content look realistic, cartoonish, futuristic, or anything in between.
 
-## Learn More
+Save your prompts – Keep track of what works and come back later to improve or remix.
 
-To learn more about Next.js, take a look at the following resources:
+Accessible anywhere – Works on both web and mobile.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+How to Get Started
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Download or open the app.
 
-## Deploy on Vercel
+Type in your idea (like: “A futuristic city floating in the sky at sunset”).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Pick what you want – an image or a short video.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+(Optional) Add a style filter – cyberpunk, watercolor, 3D render… you name it.
+
+Hit Generate → watch your idea come alive.
+
+That’s it. No fancy setup, no steep learning curve.
+
+Example Prompts
+
+“A dragon made of neon lights flying through a rainy cyberpunk city”
+
+“A cozy coffee shop on Mars with astronauts sipping lattes”
+
+“A slow pan video of a spaceship leaving Earth’s orbit”
+
+For Developers
+
+Want to integrate KREA AI into your own apps? We’ve got an API:
+
+POST /api/generate
+Content-Type: application/json
+
+{
+  "type": "video",
+  "prompt": "Waves crashing on a tropical beach at sunrise",
+  "style": "cinematic"
+}
+
+
+Response:
+
+{
+  "status": "success",
+  "url": "https://krea.ai/generated/beachwaves.mp4"
+}
+
+Contribute & Build Together
+
+We believe creativity is better when shared. If you’ve got ideas, improvements, or just want to play around with the code, jump in! Fork the repo, make your changes, and submit a PR.
+
+License
+
+KREA AI is open-source under the MIT License.
+That means you’re free to use it, remix it, and build amazing things on top of it.
+
+Why We Built KREA AI
+
+We built KREA AI to make creativity accessible to everyone.
+You don’t need to be a professional designer, filmmaker, or illustrator to bring your ideas to life. With KREA AI, your imagination is enough.
